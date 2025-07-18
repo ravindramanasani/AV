@@ -1,5 +1,5 @@
- Classifying Object Behavior to Enhance the Safety of Autonomous Vehicles
- Overview
+# Classifying Object Behavior to Enhance the Safety of Autonomous Vehicles
+## Overview
 With the rapid advancement of autonomous vehicle (AV) technologies, ensuring safety in complex and dynamic driving environments has become a top priority. This project presents a complete pipeline for classifying object behavior—such as vehicles, pedestrians, and cyclists—as either Safe or Risky, based on simulation and sensor data.
 
 Using MATLAB's Automated Driving Toolbox and Machine Learning Toolbox, the project involves:
@@ -14,7 +14,7 @@ Machine learning model training (SVM and Logistic Regression),
 
 Performance evaluation on unseen scenarios.
 
- Objectives
+## Objectives
 Simulate safe and risky driving conditions using MATLAB tools.
 
 Acquire synthetic sensor data from mounted radar and camera modules.
@@ -25,12 +25,12 @@ Test these models on new scenarios to assess classification performance.
 
 Improve AV decision-making by accurately identifying potentially hazardous situations.
 
- Motivation
+## Motivation
 Autonomous vehicles must interpret the actions and intentions of surrounding objects to navigate safely. Whether a vehicle ahead is making a sudden stop or a pedestrian is about to cross the road—these subtle behaviors must be detected early to avoid accidents.
 
 This project contributes to that goal by implementing a behavior prediction and classification system that enables AVs to respond more intelligently to their environment.
 
-🛠️ Project Pipeline
+## Project Pipeline
 1. Designing Simulation Scenarios
 Using MATLAB’s Driving Scenario Designer, multiple traffic scenarios were built to simulate both safe (normal traffic flow) and risky (sudden braking, pedestrians crossing, etc.) situations.
 
