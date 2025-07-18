@@ -72,9 +72,11 @@ Units-per-pixel in bird's eye view
 were extracted and labeled (0 = Safe, 1 = Risky).
 
 Safety Scenario:
+
 ![Safety Scenario](images/Safety_Scenario.png)
 
 Risky Scenario:
+
 ![Risky Scenario](images/Risky_Scenario.png)
 
 5. Training Machine Learning Models
