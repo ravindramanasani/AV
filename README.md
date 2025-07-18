@@ -33,7 +33,7 @@ This project contributes to that goal by implementing a behavior prediction and 
 ## Project Pipeline
 1. Designing Simulation Scenarios
 Using MATLAB’s Driving Scenario Designer, multiple traffic scenarios were built to simulate both safe (normal traffic flow) and risky (sudden braking, pedestrians crossing, etc.) situations.
-
+Scenario Design:
 ![Scenario Design](images/Scenario.png)
 
 2. Creating the Dataset
@@ -55,7 +55,7 @@ A front-facing radar and camera were mounted on the ego vehicle.
 Sensor configuration ensures maximum field of view and coverage.
 
 Simulated data includes distance, velocity, and angle of surrounding objects.
-
+Sensor Mounting:
 ![Sensor Mounting](images/Sensor_Mounting.png)
 
 4. Extracting and Labeling Sensor Data
@@ -69,9 +69,9 @@ Actor movement patterns
 
 Units-per-pixel in bird's eye view
 were extracted and labeled (0 = Safe, 1 = Risky).
-
+Safety Scenario:
 ![Safety Scenario](images/Safety_Scenario.png)
-
+Risky Scenario:
 ![Risky Scenario](images/Risky_Scenario.png)
 
 5. Training Machine Learning Models
@@ -91,7 +91,7 @@ Evaluate performance based on prediction accuracy.
 
 6. Testing on New Scenario
 A new unseen risky scenario was created to validate the model. The classifier successfully predicted the behavior, confirming the model's generalization capability.
-
+Final Output
 ![Final Output:](images/Final_output.png)
 
 
