@@ -55,6 +55,7 @@ A front-facing radar and camera were mounted on the ego vehicle.
 Sensor configuration ensures maximum field of view and coverage.
 
 Simulated data includes distance, velocity, and angle of surrounding objects.
+
 Sensor Mounting:
 ![Sensor Mounting](images/Sensor_Mounting.png)
 
@@ -69,8 +70,10 @@ Actor movement patterns
 
 Units-per-pixel in bird's eye view
 were extracted and labeled (0 = Safe, 1 = Risky).
+
 Safety Scenario:
 ![Safety Scenario](images/Safety_Scenario.png)
+
 Risky Scenario:
 ![Risky Scenario](images/Risky_Scenario.png)
 
@@ -91,7 +94,8 @@ Evaluate performance based on prediction accuracy.
 
 6. Testing on New Scenario
 A new unseen risky scenario was created to validate the model. The classifier successfully predicted the behavior, confirming the model's generalization capability.
-Final Output
+
+Final Output:
 ![Final Output:](images/Final_output.png)
 
 
